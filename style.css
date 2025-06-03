@@ -1,0 +1,686 @@
+**File
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Peserta Didik Baru SMK | PPDB 2025/2026</title>
+  <meta name="description" content="Pendaftaran Peserta Didik Baru SMK Tahun Ajaran 2025/2026. Wujudkan cita-citamu bersama kami!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>SMK NUSA BANGSA<span> | PPDB 2025/2026</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#program">Program Keahlian</a></li>
+          <li><a href="#pendaftaran">Pendaftaran</a></li>
+          <li><a href="#jadwal">Jadwal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="beranda">
+    <div class="container">
+      <h2>Pendaftaran Peserta Didik Baru</h2>
+      <p>Selamat datang di portal PPDB SMK Nusa Bangsa Tahun Ajaran 2025/2026. Wujudkan cita-citamu dan raih masa depan cerahmu bersama kami!</p>
+      <a href="#pendaftaran" class="btn">Daftar Sekarang</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="tentang">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="https://public.youware.com/users-website-assets/prod/aeddb1bd-4053-4773-8ed4-db333847e363/g93cb529821d84ea48fb2b9fd1215a11666ffb1f98c709ab69865b45b846548201a8ca9e851fe5f9c759702e323b6840243c1856e769a3d944e96ebb23dbe7b29_640.jpg" alt="Siswa SMK Nusa Bangsa">
+      </div>
+      <div class="about-content">
+        <h2 class="section-title">Tentang SMK Nusa Bangsa</h2>
+        <p>SMK Nusa Bangsa merupakan sekolah kejuruan unggulan yang berdiri sejak tahun 2005. Kami berkomitmen untuk mencetak lulusan berkualitas yang siap kerja, cerdas, dan berakhlak mulia.</p>
+        <p>Dengan fasilitas lengkap dan tenaga pengajar profesional, kami memberikan pendidikan terbaik untuk mempersiapkan siswa menghadapi dunia kerja dan pendidikan tinggi.</p>
+        <p>Keunggulan kami:</p>
+        <ul>
+          <li>Akreditasi A dari Badan Akreditasi Nasional</li>
+          <li>Kurikulum yang sesuai dengan kebutuhan industri</li>
+          <li>Laboratorium dan bengkel praktik berstandar industri</li>
+          <li>Kerjasama dengan lebih dari 50 perusahaan untuk prakerin dan penempatan kerja</li>
+          <li>Tingkat keterserapan lulusan di dunia kerja mencapai 85%</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs" id="program">
+    <div class="container programs-container">
+      <h2 class="section-title">Program Keahlian</h2>
+      <div class="programs-grid">
+        <div class="program-card">
+          <img src="https://public.youware.com/users-website-assets/prod/aeddb1bd-4053-4773-8ed4-db333847e363/gc6aef889ae557bbe8782d6320a9af7a86aee461fc836b854a0d56b9ca998f0af2491ab921e9f2782f7777f3e305cd9357247eeca61931f9594f10b697e474758_640.jpg" alt="Teknik Komputer dan Jaringan">
+          <div class="program-content">
+            <h3>Teknik Komputer dan Jaringan</h3>
+            <p>Program keahlian yang mempelajari tentang perakitan komputer, instalasi jaringan, dan pengembangan sistem berbasis teknologi informasi.</p>
+          </div>
+        </div>
+        <div class="program-card">
+          <img src="https://public.youware.com/users-website-assets/prod/aeddb1bd-4053-4773-8ed4-db333847e363/g93cb529821d84ea48fb2b9fd1215a11666ffb1f98c709ab69865b45b846548201a8ca9e851fe5f9c759702e323b6840243c1856e769a3d944e96ebb23dbe7b29_640.jpg" alt="Akuntansi dan Keuangan Lembaga">
+          <div class="program-content">
+            <h3>Akuntansi dan Keuangan Lembaga</h3>
+            <p>Program keahlian yang mempelajari tentang pencatatan keuangan, perpajakan, dan pelaporan keuangan untuk berbagai jenis lembaga.</p>
+          </div>
+        </div>
+        <div class="program-card">
+          <img src="https://public.youware.com/users-website-assets/prod/aeddb1bd-4053-4773-8ed4-db333847e363/gc6e7eec7fc3115c2980c5b8fe1818f010c9440f85a71f993eb052450ea5149d9dd25e23c8c6d596204e72ca6a3d87d2ecdbf998c4c98dc3f9fd8845428249551_640.jpg" alt="Desain Komunikasi Visual">
+          <div class="program-content">
+            <h3>Desain Komunikasi Visual</h3>
+            <p>Program keahlian yang mempelajari tentang desain grafis, multimedia, dan komunikasi visual untuk berbagai media cetak dan digital.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section class="registration" id="pendaftaran">
+    <div class="container registration-container">
+      <div class="registration-info">
+        <h2 class="section-title">Informasi Pendaftaran</h2>
+        <p>Pendaftaran Peserta Didik Baru SMK Nusa Bangsa untuk tahun ajaran 2025/2026 telah dibuka. Segera daftarkan diri Anda untuk mendapatkan kesempatan menjadi bagian dari keluarga besar SMK Nusa Bangsa.</p>
+        
+        <h3>Persyaratan Pendaftaran:</h3>
+        <ul>
+          <li>Fotokopi Ijazah SMP/MTs atau sederajat (dilegalisir)</li>
+          <li>Fotokopi Akta Kelahiran</li>
+          <li>Fotokopi Kartu Keluarga</li>
+          <li>Pas foto berwarna ukuran 3x4 (3 lembar)</li>
+          <li>Surat Keterangan Lulus dari sekolah asal</li>
+          <li>Surat Keterangan Berkelakuan Baik</li>
+        </ul>
+        
+        <h3>Biaya Pendaftaran:</h3>
+        <p>Biaya pendaftaran sebesar Rp 200.000,- dapat dibayarkan melalui rekening Bank BNI dengan nomor 1234567890 a.n. SMK Nusa Bangsa.</p>
+      </div>
+      
+      <div class="registration-form">
+        <h3>Formulir Pendaftaran</h3>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="ttl">Tempat, Tanggal Lahir</label>
+            <input type="text" id="ttl" name="ttl" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="jk">Jenis Kelamin</label>
+            <select id="jk" name="jk" required>
+              <option value="">Pilih Jenis Kelamin</option>
+              <option value="laki-laki">Laki-laki</option>
+              <option value="perempuan">Perempuan</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="alamat">Alamat Lengkap</label>
+            <input type="text" id="alamat" name="alamat" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="sekolah">Asal Sekolah</label>
+            <input type="text" id="sekolah" name="sekolah" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="program">Program Keahlian</label>
+            <select id="program" name="program" required>
+              <option value="">Pilih Program Keahlian</option>
+              <option value="tkj">Teknik Komputer dan Jaringan</option>
+              <option value="akl">Akuntansi dan Keuangan Lembaga</option>
+              <option value="dkv">Desain Komunikasi Visual</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="telepon">Nomor Telepon</label>
+            <input type="tel" id="telepon" name="telepon" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <button type="submit" class="submit-btn">Kirim Pendaftaran</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline" id="jadwal">
+    <div class="container timeline-container">
+      <h2 class="section-title">Jadwal PPDB 2025/2026</h2>
+      
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Pendaftaran Online</h3>
+            <p>1 Januari - 31 Maret 2025</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Verifikasi Berkas</h3>
+            <p>5 April - 15 April 2025</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Tes Seleksi</h3>
+            <p>20 April - 25 April 2025</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Pengumuman Hasil Seleksi</h3>
+            <p>5 Mei 2025</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Daftar Ulang</h3>
+            <p>10 Mei - 20 Mei 2025</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Masa Pengenalan Lingkungan Sekolah</h3>
+            <p>15 Juli - 20 Juli 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-section">
+        <h3>SMK Nusa Bangsa</h3>
+        <p>Jl. Pendidikan No. 123<br>
+        Kota Sejahtera, 12345<br>
+        Indonesia</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Kontak Kami</h3>
+        <p>Telepon: (021) 1234-5678<br>
+        Email: info@smknusabangsa.sch.id</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Link Penting</h3>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#program">Program Keahlian</a></li>
+          <li><a href="#pendaftaran">Pendaftaran</a></li>
+          <li><a href="#jadwal">Jadwal</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Jam Operasional</h3>
+        <p>Senin - Jumat: 08.00 - 16.00<br>
+        Sabtu: 08.00 - 12.00<br>
+        Minggu: Tutup</p>
+      </div>
+    </div>
+    
+    <div class="container copyright">
+      <p>&copy; 2025 SMK Nusa Bangsa. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+</body>
+</html>
+**File
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font and global styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #0d47a1;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #bbdefb;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(13, 71, 161, 0.8), rgba(13, 71, 161, 0.9)), url('https://public.youware.com/users-website-assets/prod/aeddb1bd-4053-4773-8ed4-db333847e363/gc6e7eec7fc3115c2980c5b8fe1818f010c9440f85a71f993eb052450ea5149d9dd25e23c8c6d596204e72ca6a3d87d2ecdbf998c4c98dc3f9fd8845428249551_640.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f57c00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ef6c00;
+}
+
+/* About section */
+.about {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0d47a1;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #f57c00;
+}
+
+/* Programs section */
+.programs {
+  padding: 4rem 0;
+  background-color: #f5f5f5;
+}
+
+.programs-container h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.programs-container h2::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.program-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.program-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.program-content {
+  padding: 1.5rem;
+}
+
+.program-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #0d47a1;
+}
+
+/* Registration section */
+.registration {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.registration-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.registration-info {
+  flex: 1;
+}
+
+.registration-form {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.submit-btn {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0a3882;
+}
+
+/* Timeline section */
+.timeline {
+  padding: 4rem 0;
+  background-color: #f5f5f5;
+}
+
+.timeline-container h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.timeline-container h2::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-items {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-items::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #0d47a1;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 2rem);
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 2rem);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #f57c00;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-content {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+  color: #0d47a1;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #0d47a1;
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #f57c00;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #bbdefb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+  
+  nav ul {
+    margin-top: 1rem;
+  }
+  
+  .about-container {
+    flex-direction: column;
+  }
+  
+  .registration-container {
+    flex-direction: column;
+  }
+  
+  .timeline-items::before {
+    left: 1rem;
+  }
+  
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 3rem;
+    padding-right: 0;
+  }
+  
+  .timeline-dot {
+    left: 1rem;
+  }
+}

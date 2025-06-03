@@ -1,0 +1,102 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.alert {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+a.edit, a.delete {
+    text-decoration: none;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+a.edit {
+    background-color: #0b6be9;
+    color: #fff;
+}
+
+a.delete {
+    background-color: #ca0707;
+    color: #fff;
+}
+
+a.edit:hover {
+    background-color: #014088;
+}
+
+a.delete:hover {
+    background-color: #880101;
+}
+
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ca0707;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: background 0.3s, transform 0.3s;
+    z-index: 999;
+}
+
+.logout-btn:hover {
+    background: #880101;
+    transform: scale(1.05);
+}
+
+/* Ikon logout di dalam tombol */
+.logout-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+}
