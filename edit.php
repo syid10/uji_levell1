@@ -60,6 +60,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <div class="navbar"><b>Edit Pendaftaran</b></div>
 
 <div class="sidebar">
+    <a href="" class="kembali-btn"></a>
+    <a href="" class="kembali-btn"></a>
+    <a href="history.php" class="kembali-btn">Back</a>
 </div>
 
 <div class="content">

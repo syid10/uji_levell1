@@ -58,7 +58,7 @@
   <div class="navbar"><b>History Daftar</b></div>
 
   <div class="sidebar">
-    <a href="dashboard.php" class="kembali-btn">Back</a>
+    <a href="index.php" class="kembali-btn">Back</a>
 
   </div>
 

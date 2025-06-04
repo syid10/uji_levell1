@@ -27,7 +27,7 @@ $sql = "INSERT INTO pendaftar
         ('$nama', '$ttl', '$jk', '$alamat', '$sekolah', '$program', '$telepon', '$email')";
 
 if ($conn->query($sql) === TRUE) {
-   echo "<script>alert('Pendaftaran berhasil disimpan.'); window.location.href='dashboard.php';</script>";
+   echo "<script>alert('Pendaftaran berhasil disimpan.'); window.location.href='index.php';</script>";
 } else {
   echo "<script>alert('Gagal menyimpan data: " . $conn->error . "'); window.history.back();</script>";
 }

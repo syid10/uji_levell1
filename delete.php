@@ -13,7 +13,7 @@ $stmt = $conn->prepare($query);
 $stmt->bind_param("s", $id);
 
 if ($stmt->execute()) {
-    header('history.php');
+    header('location: history.php');
 } else {
     echo "Gagal menghapus data.";
 }

@@ -22,11 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             header('location: kepsek_dashboard.php');
             break;
         default:
-            echo "<script>alert('Kode, nama, atau level salah!'); window.location.href='index.php';</script>";
+            echo "<script>alert('Kode, nama, atau level salah!'); window.location.href='login.php';</script>";
             break;
     }
 } else {
-    echo "<script>alert('Akses tidak sah'); window.location.href='index.php';</script>";
+    echo "<script>alert('Akses tidak sah'); window.location.href='login.php';</script>";
     exit;
 }
 ?>
